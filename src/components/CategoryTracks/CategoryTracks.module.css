@@ -4,3 +4,11 @@
     gap: 20px;
     flex-wrap: wrap;
 }
+
+.artist { 
+    font-size: 1rem;
+}
+
+.track { 
+    font-size: 0.8rem;
+}
