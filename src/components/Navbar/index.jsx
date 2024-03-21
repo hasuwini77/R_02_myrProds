@@ -5,14 +5,14 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { getImageURL } from '../../utils/function';
-
+import styles from './Navbar.module.css';
 
 const Nav = () => {
     return (
         <>
             <Navbar className="bg-body-tertiary">
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand className={styles.nav} href="#home">
                         <img
                             alt=""
                             src={getImageURL('headphones.png')}

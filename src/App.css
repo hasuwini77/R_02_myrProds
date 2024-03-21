@@ -1,12 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Shrikhand&display=swap');
+
 * { 
   margin: 0;
   box-sizing: border-box;
 }
 
+.shrikhand-regular {
+  font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+} 
+
 html, body { 
   margin: 0;
   display: flex;
   max-height: 100%;
+  
 }
 
 body { 
