@@ -1,6 +1,5 @@
 import styles from './FeaturedSong.module.css'
-import { getAudioURL } from '../../utils/function';
-import { getImageURL } from '../../utils/function';
+import { getAudioURL, getImageURL } from '../../utils/function';
 
 const FeaturedSong = ({ img, artist, track, mp3 }) => {
     return (

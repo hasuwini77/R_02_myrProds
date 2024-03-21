@@ -13,11 +13,12 @@ function App() {
   return (
     <>
       < Nav />
-      < FeaturedSong
-        img={randomTrack.img}
-        artist={randomTrack.artist}
-        track={randomTrack.track}
-        mp3={randomTrack.mp3} />
+      {randomTrack &&
+        < FeaturedSong
+          img={randomTrack.img}
+          artist={randomTrack.artist}
+          track={randomTrack.track}
+          mp3={randomTrack.mp3} />}
     </>
   )
 }
