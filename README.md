@@ -1,8 +1,14 @@
-# React + Vite
+# MYR prods idea
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Showcase MYR / Widen Music
+- Filtering Music by Category
+- Finding a way to preview audio in a cool way
+- wave or audio player features
+- fixing components with bootstrap
+- fixing a one single page application
+- creating a constructor object in js data
+- use of components for all elements
+- one title for each page
+- responsive design
+- use of map method
+  
