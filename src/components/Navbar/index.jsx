@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import { getImageURL } from '../../utils/function';
 
 
 const Nav = () => {
@@ -14,7 +15,7 @@ const Nav = () => {
                     <Navbar.Brand href="#home">
                         <img
                             alt=""
-                            src="/assets/headphones.png"
+                            src={getImageURL('headphones.png')}
                             width="30"
                             height="30"
                             className="d-inline-block align-top"
