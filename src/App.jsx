@@ -6,6 +6,7 @@ import FeaturedSong from './components/FeaturedSong';
 import { MYR_TRACKS, RANDOM_MYR } from './data/data';
 import Sidebar from './components/Sidebar';
 import CategoryFilters from './components/CategoryFilters';
+import { Container } from 'react-bootstrap';
 
 function App() {
   const [randomTrack, setRandomTrack] = useState(RANDOM_MYR);
@@ -15,15 +16,17 @@ function App() {
       <Nav />
       <div className='mainContent'>
         <Sidebar />
-        <div className='sideContent'>
-          {randomTrack && <FeaturedSong
-            img={randomTrack.img}
-            artist={randomTrack.artist}
-            track={randomTrack.track}
-            mp3={randomTrack.mp3}
-          />}
-        </div>
-        <CategoryFilters />
+        <Container>
+          <div className='sideContent'>
+            {randomTrack && <FeaturedSong
+              img={randomTrack.img}
+              artist={randomTrack.artist}
+              track={randomTrack.track}
+              mp3={randomTrack.mp3}
+            />}
+          </div>
+          <CategoryFilters />
+        </Container>
       </div>
     </>
   );

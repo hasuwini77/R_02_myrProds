@@ -22,7 +22,7 @@ const Nav = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarNav" />
                 <Navbar.Collapse id="navbarNav" className="justify-content-end">
-                    <Form className="mb-3 mb-md-0">
+                    <Form className="d-flex align-items-center mb-3 mb-md-0">
                         <Form.Control type="text" placeholder="Search" className="mr-sm-2" />
                         <Button type="submit" className="ml-sm-2">Search</Button>
                     </Form>
