@@ -5,6 +5,7 @@ import Nav from './components/Navbar';
 import FeaturedSong from './components/FeaturedSong';
 import { MYR_TRACKS, RANDOM_MYR } from './data/data';
 import Sidebar from './components/Sidebar';
+import CategoryFilters from './components/CategoryFilters';
 
 function App() {
 
@@ -16,12 +17,15 @@ function App() {
       < Nav />
       <div className='mainContent'>
         < Sidebar />
-        {randomTrack &&
-          < FeaturedSong
-            img={randomTrack.img}
-            artist={randomTrack.artist}
-            track={randomTrack.track}
-            mp3={randomTrack.mp3} />}
+        <div className='sideContent'>
+          {randomTrack &&
+            < FeaturedSong
+              img={randomTrack.img}
+              artist={randomTrack.artist}
+              track={randomTrack.track}
+              mp3={randomTrack.mp3} />}
+        </div>
+        < CategoryFilters category="test" />
       </div>
     </>
   )

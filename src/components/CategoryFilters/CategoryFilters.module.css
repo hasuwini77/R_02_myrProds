@@ -1,0 +1,13 @@
+.category { 
+    display: flex;
+    flex-direction: column;
+      font-family: "Pixelify Sans", sans-serif;
+}
+
+h3 { 
+    font-size: 2rem;
+}
+
+h2 { 
+    font-size: 3rem;
+}

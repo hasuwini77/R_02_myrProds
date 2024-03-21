@@ -1,0 +1,16 @@
+.hovered {
+    background-color: black;
+    color: white;
+}
+
+.borderButton {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: black;
+    transition: background-color 0.6s, color 0.6s;
+}
+
+.marginRight {
+    margin-right: 12px; 
+}
