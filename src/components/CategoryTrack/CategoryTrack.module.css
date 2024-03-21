@@ -1,0 +1,12 @@
+.categoryTrack { 
+    display: flex;
+    padding: 10px;
+}
+
+.categoryImg { 
+height: 100px;
+}
+
+.trackName { 
+    padding: 7px;
+}

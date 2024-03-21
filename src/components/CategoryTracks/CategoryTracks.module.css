@@ -1,0 +1,6 @@
+.categoryTracks { 
+    display: flex;
+    padding: 12px;
+    gap: 20px;
+    flex-wrap: wrap;
+}

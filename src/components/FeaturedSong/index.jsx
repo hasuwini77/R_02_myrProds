@@ -6,9 +6,9 @@ const FeaturedSong = ({ img, artist, track, mp3 }) => {
     return (
         < Container>
             <div className={styles.featuredSong}>
-                <img src={getImageURL(img)} />
-                <h3>{artist}</h3>
-                <h4> {track} </h4>
+                <img className={styles.featuredImg} src={getImageURL(img)} />
+                <h3 className={styles.artist}>{artist}</h3>
+                <h4 className={styles.track}> {track} </h4>
                 <audio controls>
                     <source src={getAudioURL(mp3)} type="audio/mpeg" />
                     Your browser does not support the audio element.

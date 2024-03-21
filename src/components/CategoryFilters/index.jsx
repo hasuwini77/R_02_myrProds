@@ -1,10 +1,11 @@
 import styles from './CategoryFilters.module.css';
 import Container from 'react-bootstrap/Container';
 import BorderButton from '../BorderButtons';
+import CategoryTracks from '../CategoryTracks';
 
-const CategoryFilters = ({ category }) => {
+const CategoryFilters = () => {
     return (
-        < Container>
+        < Container className={styles.mainCategory}>
             <div className={styles.category}>
                 <h2>Music Categories</h2>
                 <Container>
@@ -13,6 +14,7 @@ const CategoryFilters = ({ category }) => {
                     <BorderButton name="chill" />
                 </Container>
             </div>
+            < CategoryTracks />
         </Container>
 
     )

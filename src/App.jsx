@@ -6,6 +6,7 @@ import FeaturedSong from './components/FeaturedSong';
 import { MYR_TRACKS, RANDOM_MYR } from './data/data';
 import Sidebar from './components/Sidebar';
 import CategoryFilters from './components/CategoryFilters';
+import Container from 'react-bootstrap/Container';
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
               track={randomTrack.track}
               mp3={randomTrack.mp3} />}
         </div>
-        < CategoryFilters category="test" />
+        < CategoryFilters />
       </div>
     </>
   )

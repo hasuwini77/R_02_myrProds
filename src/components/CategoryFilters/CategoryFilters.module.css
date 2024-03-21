@@ -11,3 +11,10 @@ h3 {
 h2 { 
     font-size: 3rem;
 }
+
+.mainCategory { 
+width: 70vw;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 0.8rem;
+}
+
