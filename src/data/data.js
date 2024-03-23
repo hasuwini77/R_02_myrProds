@@ -14,7 +14,7 @@ export const MYR_TRACKS = [
     new Song("warninglove.jpg", "MYR", "Warning Love", "One of my first hit that almost hit 1M stream back in 2022 got featured in the infamous lofi Beats editorial playlist on Spotify!", "WarningLove.mp3", "punchy"),
     new Song("styleinclouds.jpg", "MYR", "Style in Clouds", "a smooth jazzy and enjoyable track composed with one of my homie, Hugo on the keyboard, a beautiful soothing track to chill to", "StyleinClouds.mp3", "jazzy"),
     new Song("sleepingmchillin.jpg", "MYR", "Sleeping n Chillin", "An attempt to make a sleepy lofi track, very ambient and very inspiring to meditate and focus to", "Sleepingnchillin.mp3", "chill"),
-    new Song("purplefilter.jpg", "MYR", "Purple Filter", "a relaxed chill track using the OG SP-404 from Roland, typicall proper lofi beat to chill to, jazzy vibes", "PurpleFilter.mp3", "jazzy"),
+    new Song("purplefilter.jpg", "MYR", "Purple Filter", "a relaxed chill track using the OG SP-404 from Roland, typicall proper lofi beat to chill to, jazzy vibes", "PurpleFilter.mp3", "chill"),
     new Song("kiwano.jpg", "MYR", "Kiwano", "First track released together with the homie Hugo Hassler, a young Swedish trumpet player, track is very smooth, very jazzy, a chill jazz ballad", "Kiwano.mp3", "jazzy"),
     new Song("jazzmachine.jpg", "MYR", "Jazz Machine", "This track was the MYR take on the very first compilation called MYR & Friends a released made by Widen Island record label with other dope lofi artists featured in it!", "JazzMachine.mp3", "jazzy"),
     new Song("futureforest.jpg", "MYR", "Future Forest", "One of my very first release, in an EP called Dreamy Roots, this was most likely my most successfull release as throughout the years the EP receive a lot of listens and streams, it still receive a lot of streams nowadays though it is one of the first. Probably my best track, at least with the most charm in it! Tons of mistake that's why it's a cool one! Enjoy! <3 ", "FutureForests.mp3", "chill"),
@@ -27,3 +27,9 @@ const RANDOM_INDEX = Math.floor(Math.random() * MYR_TRACKS.length);
 export const RANDOM_MYR = MYR_TRACKS[RANDOM_INDEX];
 
 export const DISPLAYED_TRACKS = MYR_TRACKS.filter((song, index) => index !== RANDOM_INDEX);
+
+export const JAZZY_TRACKS = MYR_TRACKS.filter((song, index) => index !== RANDOM_INDEX && song.category === "jazzy");
+
+export const PUNCHY_TRACKS = MYR_TRACKS.filter((song, index) => index !== RANDOM_INDEX && song.category === "punchy");
+
+export const CHILL_TRACKS = MYR_TRACKS.filter((song, index) => index !== RANDOM_INDEX && song.category === "chill");
