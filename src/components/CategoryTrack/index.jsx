@@ -1,6 +1,5 @@
 import styles from './CategoryTrack.module.css'
 import { getAudioURL, getImageURL } from '../../utils/function';
-import Container from 'react-bootstrap/Container';
 
 const CategoryTrack = ({ img, artist, track, mp3 }) => {
     return (
