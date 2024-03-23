@@ -23,6 +23,7 @@ export const MYR_TRACKS = [
     new Song("analogequipment.jpg", "MYR", "Analog Equipment", "Very redundant coolish lofi beats, this one was produced using the classic OG SP-404A from Roland, one of the most used piece of gear when it comes to true lofi beats. Enjoy my dudes!", "AnalogEquipment.mp3", "punchy")
 ]
 
-export const RANDOM_MYR = MYR_TRACKS[Math.floor(Math.random () * MYR_TRACKS.length)]; 
+const RANDOM_INDEX = Math.floor(Math.random() * MYR_TRACKS.length);
+export const RANDOM_MYR = MYR_TRACKS[RANDOM_INDEX];
 
-console.log(RANDOM_MYR);
+export const DISPLAYED_TRACKS = MYR_TRACKS.filter((song, index) => index !== RANDOM_INDEX);

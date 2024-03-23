@@ -9,6 +9,7 @@ const CategoryTrack = ({ img, artist, track, mp3 }) => {
                 <h3 className={styles.catArtist}>{artist}</h3>
                 <h4 className={styles.catTrack}> {track} </h4>
             </div>
+            {/* Currently hiding the audio */}
             <audio hidden controls>
                 <source src={getAudioURL(mp3)} type="audio/mpeg" />
                 Your browser does not support the audio element.
