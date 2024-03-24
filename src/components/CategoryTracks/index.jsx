@@ -1,12 +1,11 @@
 import React from 'react';
 import styles from './CategoryTracks.module.css';
-import { DISPLAYED_TRACKS } from '../../data/data';
 import CategoryTrack from '../CategoryTrack';
 
-const CategoryTracks = () => {
+const CategoryTracks = ({ tracks }) => {
     return (
         <div className={styles.categoryTracks}>
-            {DISPLAYED_TRACKS.map((track, index) => (
+            {tracks.map((track, index) => (
                 <CategoryTrack
                     key={index}
                     img={track.img}
@@ -17,6 +16,7 @@ const CategoryTracks = () => {
             ))}
         </div>
     );
+
 }
 
 export default CategoryTracks;
