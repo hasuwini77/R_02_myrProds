@@ -1,27 +1,26 @@
 .nav {
-    font-family: "Shrikhand", serif;
-    font-size: 1.6rem;
-    padding: 10px;
+  font-family: "Shrikhand", serif;
+  font-size: 1.6rem;
+  padding: 10px;
 }
 
 .navbar-collapse {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
 .search-form {
-    display: flex; 
-    align-items: center; 
+  display: flex;
+  align-items: center;
 }
 
 .search-form .form-control {
-    margin-right: 10px; 
+  margin-right: 10px;
 }
 
 @media (max-width: 768px) {
-    .search-form {
-        margin-left: 0;
-    }
+  .search-form {
+    margin-left: 0;
+  }
 }

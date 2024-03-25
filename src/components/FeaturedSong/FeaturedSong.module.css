@@ -1,10 +1,10 @@
-.featuredSong { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-background-color: rgba(95, 158, 160, 0.651);
-padding: 24px;
-border-radius: 10px;
+.featuredSong {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(95, 158, 160, 0.651);
+  padding: 24px;
+  border-radius: 10px;
   font-family: "Pixelify Sans", sans-serif;
 }

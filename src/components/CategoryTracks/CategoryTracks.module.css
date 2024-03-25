@@ -1,14 +1,14 @@
-.categoryTracks { 
-    display: flex;
-    padding: 12px;
-    gap: 20px;
-    flex-wrap: wrap;
+.categoryTracks {
+  display: flex;
+  padding: 12px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.artist { 
-    font-size: 1rem;
+.artist {
+  font-size: 1rem;
 }
 
-.track { 
-    font-size: 0.8rem;
+.track {
+  font-size: 0.8rem;
 }

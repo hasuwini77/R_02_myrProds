@@ -1,20 +1,19 @@
-.category { 
-    display: flex;
-    flex-direction: column;
-      font-family: "Pixelify Sans", sans-serif;
+.category {
+  display: flex;
+  flex-direction: column;
+  font-family: "Pixelify Sans", sans-serif;
 }
 
-h3 { 
-    font-size: 2rem;
+h3 {
+  font-size: 2rem;
 }
 
-h2 { 
-    font-size: 3rem;
+h2 {
+  font-size: 3rem;
 }
 
-.mainCategory { 
-width: 90vw;
+.mainCategory {
+  width: 90vw;
   font-family: "Pixelify Sans", sans-serif;
   font-size: 0.8rem;
 }
-
