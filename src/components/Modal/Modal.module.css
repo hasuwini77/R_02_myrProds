@@ -1,0 +1,15 @@
+.trackName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoryImg {
+  width: 60%;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+}
