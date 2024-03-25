@@ -17,7 +17,7 @@ function App() {
       <div className="mainContent">
         <Sidebar />
         <Container>
-          <div className="sideContent">{randomTrack && <FeaturedSong img={randomTrack.img} artist={randomTrack.artist} track={randomTrack.track} mp3={randomTrack.mp3} />}</div>
+          <div className="sideContent">{randomTrack && <FeaturedSong img={randomTrack.img} artist={randomTrack.artist} track={randomTrack.track} mp3={randomTrack.mp3} backgroundImg={randomTrack.img} />}</div>
           <CategoryFilters />
         </Container>
       </div>
