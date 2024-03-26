@@ -7,22 +7,23 @@ import styles from "./Sidebar.module.css";
 
 const Sidebar = () => {
   const boomboxIcon = getImageURL("boombox.svg");
+  const calendarHeart = getImageURL("calendarheart.svg");
 
   return (
     <div className={styles.sidebar}>
       <Nav className="flex-column">
         <Nav.Item style={{ marginBottom: "20px" }}>
-          <Nav.Link href="#">
+          <Nav.Link href="/">
             <House size={30} style={{ color: "black" }} />
           </Nav.Link>
         </Nav.Item>
         <Nav.Item style={{ marginBottom: "20px" }}>
-          <Nav.Link href="#">
-            <img src={boomboxIcon} alt="Boombox" width="30" height="30" style={{ color: "black" }} />
+          <Nav.Link href="/event">
+            <img src={calendarHeart} alt="CalendarHeart" width="30" height="30" style={{ color: "black" }} />
           </Nav.Link>
         </Nav.Item>
         <Nav.Item style={{ marginBottom: "20px" }}>
-          <Nav.Link href="#">
+          <Nav.Link href="/contact">
             <AiOutlineMessage size={30} style={{ color: "black" }} />
           </Nav.Link>
         </Nav.Item>

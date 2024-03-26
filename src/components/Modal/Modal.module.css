@@ -12,4 +12,10 @@
 
 h2 {
   text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+p {
+  padding: 8px;
+  margin-top: 5px;
 }
