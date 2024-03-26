@@ -1,0 +1,6 @@
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Pixelify Sans", sans-serif;
+}

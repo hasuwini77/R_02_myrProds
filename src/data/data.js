@@ -61,3 +61,9 @@ export const JAZZY_TRACKS = MYR_TRACKS.filter((song, index) => index !== RANDOM_
 export const PUNCHY_TRACKS = MYR_TRACKS.filter((song, index) => index !== RANDOM_INDEX && song.category === "punchy");
 
 export const CHILL_TRACKS = MYR_TRACKS.filter((song, index) => index !== RANDOM_INDEX && song.category === "chill");
+
+const allMyrPic = ["myr1.jpg", "myr2.jpg", "myr3.jpg"];
+
+const myrRandomIndex = Math.floor(Math.random() * allMyrPic.length);
+
+export const randomMyr = allMyrPic[myrRandomIndex];
