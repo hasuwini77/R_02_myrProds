@@ -1,0 +1,12 @@
+.description {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 1.3rem;
+  max-width: 80%;
+  text-align: center;
+}
+.event {
+  font-size: 1.6rem;
+}
+.date {
+  font-size: 1.3rem;
+}
