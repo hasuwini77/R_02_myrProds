@@ -1,10 +1,17 @@
 import React from "react";
+import BasicEvent from "../../EventsList";
+import { Container } from "react-bootstrap";
 
 const EventPage = () => {
   return (
-    <div className="mainContent">
-      <h1>This is the Event Page</h1>
-    </div>
+    <>
+      <Container>
+        <div className="mainContent">
+          <h1>Upcoming Events</h1>
+        </div>
+        <BasicEvent />
+      </Container>
+    </>
   );
 };
 
