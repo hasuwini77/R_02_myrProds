@@ -37,4 +37,5 @@ body {
 
 .mainContent {
   display: flex;
+  justify-content: center;
 }

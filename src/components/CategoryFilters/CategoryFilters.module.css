@@ -19,3 +19,29 @@ h2 {
   font-family: "Pixelify Sans", sans-serif;
   font-size: 0.8rem;
 }
+
+@media (max-width: 768px) {
+  .mainCategory {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .category {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .category button {
+    margin: 5px; /* Adjust button margin as necessary */
+  }
+
+  .categoryTracks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
