@@ -6,7 +6,16 @@
 }
 .event {
   font-size: 1.6rem;
+  padding: 5px;
+  width: 300px;
 }
 .date {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  margin-left: 40px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
