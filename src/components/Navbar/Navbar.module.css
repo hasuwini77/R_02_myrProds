@@ -4,8 +4,27 @@
   padding: 10px;
 }
 
+.navbarNav {
+  display: flex;
+}
+
+.nav-link {
+  margin-left: 20px;
+  display: flex;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
 .navbar-collapse {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -23,4 +42,9 @@
   .search-form {
     margin-left: 0;
   }
+}
+
+.nav-link img,
+.nav-link svg {
+  margin-right: 10px;
 }
