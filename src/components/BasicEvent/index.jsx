@@ -13,7 +13,7 @@ function BasicEvent({ event, img, date, description }) {
             <span className={`${styles.date} float-end`}>{date}</span>
           </div>
         </Accordion.Header>
-        <Accordion.Body style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
+        <Accordion.Body className={styles.bodyContent}>
           <img src={getImageURL(img)} alt={event} style={{ width: "40%", marginRight: "10px", padding: "10px", borderRadius: "25px" }} />
           <p className={styles.description}> {description} </p>
         </Accordion.Body>

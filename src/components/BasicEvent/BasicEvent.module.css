@@ -1,21 +1,43 @@
+.bodyContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content at the start of the accordion body */
+  min-height: 100px; /* Set a minimum height for the accordion body */
+}
+
+/* Your other styles remain the same */
 .description {
   font-family: "Pixelify Sans", sans-serif;
   font-size: 1.3rem;
   max-width: 80%;
   text-align: center;
 }
+
 .event {
   font-size: 1.6rem;
   padding: 5px;
   width: 300px;
 }
+
 .date {
   font-size: 1.4rem;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .heading {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .event {
+    font-size: 1.3rem;
+    width: 140px;
+  }
+
+  .date {
+    font-size: 1.2rem;
+    margin-left: 4px;
+  }
 }

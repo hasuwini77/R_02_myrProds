@@ -1,3 +1,24 @@
+.eventContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
 .title {
   font-family: "Shrikhand", serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .eventContainer {
+    min-height: 100vh;
+  }
 }
