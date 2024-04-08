@@ -27,8 +27,8 @@ export default function Footer() {
 
       <div className="text-center text-black p-3 bg-body-tertiary">
         © 2024 Copyright:
-        <a className="text-black" href="https://mdbootstrap.com/">
-          MYR.com
+        <a className="text-black" href="https://devdwin.com/" target="_blank">
+          devdwin.com
         </a>
       </div>
     </MDBFooter>
