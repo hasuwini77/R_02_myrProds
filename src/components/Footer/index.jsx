@@ -7,19 +7,19 @@ export default function Footer() {
     <MDBFooter className="text-center text-black bg-body-tertiary">
       <MDBContainer className="pt-4">
         <section className="mb-4">
-          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="#" role="button">
+          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="https://twitter.com/LofiMyr" role="button">
             <FaTwitter />
           </MDBBtn>
 
-          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="#" role="button">
+          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="https://instagram.com/myrlofibeats" role="button">
             <FaInstagram />
           </MDBBtn>
 
-          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="#" role="button">
+          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="https://www.linkedin.com/in/edwin-andermyr-5a1aba39/" role="button">
             <FaLinkedin />
           </MDBBtn>
 
-          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="#" role="button">
+          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="https://github.com/hasuwini77" role="button">
             <FaGithub />
           </MDBBtn>
         </section>
