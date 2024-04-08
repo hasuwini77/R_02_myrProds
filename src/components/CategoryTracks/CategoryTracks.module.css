@@ -3,6 +3,7 @@
   padding: 12px;
   gap: 20px;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 
 .artist {
