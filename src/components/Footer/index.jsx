@@ -7,19 +7,19 @@ export default function Footer() {
     <MDBFooter className="text-center text-black bg-body-tertiary">
       <MDBContainer className="pt-4">
         <section className="mb-4">
-          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="https://twitter.com/LofiMyr" role="button">
+          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="https://twitter.com/LofiMyr" target="_blank" role="button">
             <FaTwitter />
           </MDBBtn>
 
-          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="https://instagram.com/myrlofibeats" role="button">
+          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="https://instagram.com/myrlofibeats" target="_blank" role="button">
             <FaInstagram />
           </MDBBtn>
 
-          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="https://www.linkedin.com/in/edwin-andermyr-5a1aba39/" role="button">
+          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="https://www.linkedin.com/in/edwin-andermyr-5a1aba39/" target="_blank" role="button">
             <FaLinkedin />
           </MDBBtn>
 
-          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="https://github.com/hasuwini77" role="button">
+          <MDBBtn rippleColor="dark" color="link" floating size="lg" className="text-black m-1" href="https://github.com/hasuwini77" target="_blank" role="button">
             <FaGithub />
           </MDBBtn>
         </section>
