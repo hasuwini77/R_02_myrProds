@@ -1,5 +1,3 @@
-// NavComponent.jsx
-
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
@@ -16,15 +14,21 @@ const NavComponent = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav" />
         <Navbar.Collapse id="navbarNav" className="justify-content-md-end justify-content-center">
-          <Nav className="navbar-nav">
-            <Nav.Item style={{ marginLeft: "60px", fontFamily: "Shrikhand, serif" }}>
-              <Nav.Link href="/">Home</Nav.Link>
+          <Nav className="navbar-nav w-100 justify-content-center justify-content-md-evenly" style={{ marginLeft: "auto", marginRight: "auto", textAlign: "center" }}>
+            <Nav.Item>
+              <Nav.Link style={{ fontFamily: "Shrikhand, serif" }} href="/">
+                Home
+              </Nav.Link>
             </Nav.Item>
-            <Nav.Item style={{ marginLeft: "60px", fontFamily: "Shrikhand, serif" }}>
-              <Nav.Link href="/event">Events</Nav.Link>
+            <Nav.Item>
+              <Nav.Link style={{ fontFamily: "Shrikhand, serif" }} href="/event">
+                Events
+              </Nav.Link>
             </Nav.Item>
-            <Nav.Item style={{ marginLeft: "60px", marginRight: "100px", fontFamily: "Shrikhand, serif" }}>
-              <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Item>
+              <Nav.Link style={{ fontFamily: "Shrikhand, serif" }} href="/contact">
+                Contact
+              </Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
