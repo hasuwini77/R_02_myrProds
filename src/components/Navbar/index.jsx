@@ -14,7 +14,7 @@ const NavComponent = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav" />
         <Navbar.Collapse id="navbarNav" className="justify-content-md-end justify-content-center">
-          <Nav className="navbar-nav w-100 justify-content-center justify-content-md-evenly" style={{ marginLeft: "auto", marginRight: "auto", textAlign: "center" }}>
+          <Nav className="navbar-nav w-100 justify-content-center justify-content-md-evenly ml-5" style={{ marginLeft: "auto", marginRight: "auto", textAlign: "center" }}>
             <Nav.Item>
               <Nav.Link style={{ fontFamily: "Shrikhand, serif" }} href="/">
                 Home

@@ -34,7 +34,7 @@ const CategoryFilters = () => {
     <Container className={styles.mainCategory}>
       <div className={styles.category}>
         <h2>Music Categories</h2>
-        <Container>
+        <Container className="d-flex justify-content-center">
           <BorderButton onClick={() => handleFilter("all")} active={activeFilter === "all"}>
             all
           </BorderButton>

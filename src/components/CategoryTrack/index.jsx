@@ -1,5 +1,5 @@
 import styles from "./CategoryTrack.module.css";
-import { getAudioURL, getImageURL } from "../../utils/function";
+import { getImageURL } from "../../utils/function";
 
 const CategoryTrack = ({ img, artist, track, mp3, onClick }) => {
   return (
